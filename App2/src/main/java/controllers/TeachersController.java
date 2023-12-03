@@ -27,7 +27,17 @@ public class TeachersController extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-	
+	switch(action){
+case "/AddTeacher":
+    break;
+case "/UpdateTeacher"
+break;
+default :
+break;
+
+}
+
+
 	}
 
 }
